@@ -12317,7 +12317,7 @@ blockquote p {
 }
 .footer__bottom-three {
   border-top: 1px solid white;
-  padding: 40px 0;
+  padding: 10px 0;
 }
 @media (max-width: 767.98px) {
   .footer__bottom-three {
@@ -12331,7 +12331,7 @@ blockquote p {
   }
 }
 .footer__bottom-three .copyright-text {
-  text-align: right;
+  text-align: center;
 }
 @media (max-width: 767.98px) {
   .footer__bottom-three .copyright-text {
@@ -12673,7 +12673,7 @@ blockquote p {
 }
 
 .fw-logo img {
-  max-height: 58px;
+  max-height: 100px;
 }
 
 .fw-title {
@@ -14508,4 +14508,10 @@ blockquote p {
   .about__img-wrap2-home8 .shape-2 {
     right: -15px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
