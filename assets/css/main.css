@@ -1354,7 +1354,7 @@ textarea {
   }
 }
 .tg-header__area-three {
-  background: transparent;
+  background: white;
   box-shadow: none;
 }
 .tg-header__area-three .tgmenu__navbar-wrap ul {
@@ -2313,7 +2313,7 @@ textarea {
   align-items: center;
   background-size: cover;
   background-position: center;
-  padding: 200px 0 100px;
+  padding: 200px 0 50px;
   position: relative;
   z-index: 1;
 }
@@ -2325,7 +2325,7 @@ textarea {
 @media (max-width: 991.98px) {
   .banner__bg-two {
     min-height: 600px;
-    padding: 150px 0 100px;
+    padding: 150px 0 50px;
   }
 }
 @media (max-width: 767.98px) {
@@ -3187,7 +3187,7 @@ textarea {
 .about__bg-two {
   background-size: cover;
   background-position: center;
-  padding: 120px 0;
+  padding: 80px 0;
   position: relative;
   z-index: 1;
 }
@@ -14514,4 +14514,32 @@ blockquote p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+#careers-header {
+  margin-top: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+#careers-header .section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 100px 0;
+}
+
+#careers-header .btn {
+  background: var(--tg-theme-primary);
+  color: var(--tg-color-white-default);
+}
+
+#careers-header .btn:hover {
+  color: var(--tg-color-white-default);
+}
+
+#open-positions {
+  padding: 100px 0;
+  background-color: var(--tg-color-yellow-light-2);
 }
