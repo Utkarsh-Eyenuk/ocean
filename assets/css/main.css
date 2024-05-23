@@ -3893,10 +3893,6 @@ textarea {
 .about__list-box .list-wrap li:last-child {
   margin-bottom: 0;
 }
-.about__list-box-two {
-  border-left: 1px solid #DBE3EB;
-  padding-left: 30px;
-}
 @media (max-width: 1199.98px) {
   .about__list-box-two {
     border: none;
